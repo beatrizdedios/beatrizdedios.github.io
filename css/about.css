@@ -117,15 +117,19 @@
     background-color:#8886C4 ;
     color:white;
      
-     }
+  }
+
+
+  .tags{
+    display: flex;
+    justify-content: space-around;
+  
+  }
 
 
 .tags-section{
 font-family: roboto;
 font-size: 16px;
-max-width: 600px;
-display: flex;
-justify-content: space-around;
 margin-left: 60px;
 }
 
