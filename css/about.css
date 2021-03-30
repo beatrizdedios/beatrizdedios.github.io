@@ -1,0 +1,352 @@
+@font-face {
+    font-family: "Recoleta";
+    src: url("../fonts/Recoleta-Regular.ttf");  /* Os dejo esta parte para recordaros como importar un font-family 😊*/
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf")  /* Os dejo esta parte para recordaros como importar un font-family 😊*/
+  }
+
+  header{
+    padding: 40px 24px 0 24px;
+  }
+  
+  .nombre{
+    font-family: roboto;
+    font-weight: 400;
+    text-decoration: none;
+    color:#2F2F2F; 
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    font-family: roboto;
+    font-weight: 400;
+    display: flex;
+    justify-content:flex-end;
+  }
+
+  .menu-li {
+    margin-left: 24px;
+    text-decoration: none;
+    color:#2F2F2F; 
+   }
+  
+
+
+ .section-t{
+    display: flex;
+    padding-left: 24px;
+    padding-top: 80px;
+    align-items: center;
+    
+  }
+  
+  .section-tt{
+    display: flex;
+    align-items: center;
+  
+    
+  }
+  
+  .article-h2{
+    font-family: recoleta;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    padding-bottom:68px;
+    
+   
+  }
+
+  .main-text{
+     display: flex;
+     justify-content: center;
+     
+    
+  }
+
+.about-div{
+     display: flex;
+     flex-direction: column;
+     padding-right: 108px;
+}
+
+  .main-article{
+    max-width: 309PX;
+    font-family: Roboto;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:48px;
+    
+  }
+
+  .about-h3{
+    color:#8886C4;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom:12px;
+  }
+  
+  .about-p{
+     max-width: 309PX;
+     color:#2F2F2F;
+     font-family: roboto ;
+     font-size: 16px;
+     line-height: 24px;
+     padding-bottom: 24px;    
+  }
+
+  .main-button{
+    font-family: roboto;
+    text-decoration: none;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 36px;
+    width: fit-content;
+    background-color:#8886C4 ;
+    color:white;
+     
+     }
+
+
+.tags-section{
+font-family: roboto;
+font-size: 16px;
+max-width: 600px;
+display: flex;
+justify-content: space-around;
+margin-left: 60px;
+}
+
+.tags-article{
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+.tags-p{
+    padding-bottom: 24px;
+}
+
+.tag-div-2{
+  width: 310px;
+  height: 292px;
+  display: flex;
+    
+}
+
+  img{
+  width: 310px;
+  height: 292px;
+  }
+
+
+  .et-p{
+    margin-bottom: 32px;
+    font-family: roboto;
+    text-decoration: none;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 36px;
+    width: fit-content;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+
+
+}
+
+
+.footer{
+    background-color: #131313;
+     color: white;
+     padding-top: 48px;
+     display: flex;
+     justify-content: space-between; 
+     padding: 48px 72px 48px 80px;
+     margin-top:80px;
+    
+    }
+    .section-footer{
+      font-family: Roboto;
+      font-size: 16px;
+      
+    
+      }
+    
+    .footer-description {
+    
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+    
+    
+    }
+    
+  .article-icons {
+  font-family: Roboto;
+  display: flex;
+  justify-content: flex-start;
+
+    
+     
+    }
+
+ .article-et{
+  padding-right: 24px;
+
+    }
+  
+    
+  .footer-title{
+  max-width: 393px;
+  padding-bottom: 48px;
+  line-height: 24px;
+      
+    }
+    
+    .icon-a{
+    color:white;
+    text-decoration: none;
+    margin-right: 24px;
+    }
+    .footer-designed{
+        display: flex;
+        align-items: center;
+      }
+      
+    .footer-al{
+    display: flex;
+    align-items: flex-end;
+    }
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+
+header{
+  padding: 40px 0 0 0;
+  display: flex;
+  justify-content: center;
+ }
+    
+.nombreb{
+ display: none;
+}
+    
+.menu {
+ display: flex;
+ justify-content:center;
+  }
+
+.main-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.main-article{
+  padding-left: 24px;
+}
+.main-article-t{
+display: flex;
+justify-content: center;
+  padding-left: 24px;
+}
+
+.about-div{
+  padding: 0;
+}
+
+.main-article{
+  line-height: 32px;
+}
+
+.div-a{
+padding-bottom: 32px;
+display: flex;
+justify-content: center;
+}
+
+.imgb{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tags-section{
+  margin:0;
+}
+
+.main-article-t{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tag-div-2{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title{
+  padding-bottom: 32px;
+  
+}
+
+ .div-iconsrrss{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 56px;
+
+ }
+
+ .icon-a{
+
+  padding-bottom: 24px;
+ }
+
+
+
+
+
+
+    }
